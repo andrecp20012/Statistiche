@@ -22,3 +22,7 @@ def confidenza(listozzo, confidence):
 	k=dev(listozzo)
 	tval=t.ppf(1 - alpha, df=j-1)
 	return tval*k/sqrt(j)
+
+def plussone(a,b):
+	c=a+b
+	return c
